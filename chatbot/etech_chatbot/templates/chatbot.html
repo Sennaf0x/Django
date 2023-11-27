@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block styles %}
 <style>
     body, html {
@@ -81,8 +81,12 @@
 {% block content %}
 <div class="chat-container">
   <div class="card flex-grow-1">
-    <div class="card-header text-white">Chat</div>
-    <img src="../assets/fpf-logo.png"/>
+    
+    <div class="card-header text-white">
+    <img src="{% static '/img/fpf-logo-1.png' %}"/>
+    <div>Chat E-tech</div>
+    </div>
+    
     <div class="card-body messages-box">
       
       <ul class="list-unstyled messages-list">

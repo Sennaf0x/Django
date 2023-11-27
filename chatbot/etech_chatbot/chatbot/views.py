@@ -3,7 +3,7 @@ from django.http import JsonResponse
 import openai
 #import dotenv
 
-openai_api_key = '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'
+openai_api_key = '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'
 openai.api_key = openai_api_key
 #env_vars = dotenv.dotenv_values()
 #openai.api_key = env_vars['OPENAI_SECRET_KEY']
